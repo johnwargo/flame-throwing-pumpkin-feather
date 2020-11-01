@@ -101,7 +101,7 @@
 // use double the pixel count to manage fading the background color
 const int FADE_LIMIT = (NUMPIXELS * 2);
 // variables to hold Analog input pins
-int myPins[] = {A1, A2, A4};
+int myPins[] = {A1, A2, A3};
 int fadeVal = 0;
 int numAudioFiles = 0;
 
