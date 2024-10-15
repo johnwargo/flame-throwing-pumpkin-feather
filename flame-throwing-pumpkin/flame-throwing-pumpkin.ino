@@ -5,9 +5,13 @@
    Created October 25, 2019
    https://johnwargo.com
 
-   This is the Adafruit Feather code for a remote controlled flame-throwing pumpkin project.
+   https://github.com/johnwargo/flame-throwing-pumpkin-feather
 
-  Note: The code expects that the media player SD card has only `.mp3` files on it. If you want to put other files on the card, then you must adjust the print directory function to only count /mp3 files.
+   This is the Adafruit Feather sketch for a remote controlled flame-throwing pumpkin project.
+
+  Note: The code expects that the media player SD card has only `.mp3` files on it. If you want to 
+  put other files on the card, then you must adjust the print directory function to only 
+  count /mp3 files.
  *****************************************************/
 
 // NeoPixel shield pin
