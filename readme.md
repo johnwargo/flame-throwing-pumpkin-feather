@@ -94,4 +94,8 @@ The fourth set of relay wires connect directly to the Glade Air Freshener; the s
 
 I created this project so long ago that I don't remember exactly how I hacked the air freshener to work with this project. 
 
+The air freshener operates by periodically spraying freshener in the room based on a setting on the back of the device. You can configure it to spray every 9, 18 or 36 minutes. The air freshener also has a button on the back you can use to force a spray whenever you want. This is where I hacked the device.
+
+I opened up the device and found the two wires that connect to the button. Next, I cut those wires from the button's circuit board, disabling the button, and added wire extensions to the cut wires so I can connect them to the 4th relay. 
+
 ![Air Freshener](/images/figure-03.jpg)
