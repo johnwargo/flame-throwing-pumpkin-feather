@@ -10,13 +10,13 @@ Now, before you panic over the dangerous nature of this project, please note tha
 
 It does shoot fire out of its mouth, so you should be VERY, VERY careful with this device. Keep all humans and animals 6 feet or more away from the device while it operates. I do not accept any responsibility for harm caused by and through your implementation of this project. Be careful.
 
+Here's a demonstration of the project's flame throwing capabilities:
+
 [![Flame Throwing Demonstration](https://img.youtube.com/vi/WcZAg1KJ5VQ/0.jpg)](https://www.youtube.com/watch?v=WcZAg1KJ5VQ)
 
-![](https://youtube.com/shorts/WcZAg1KJ5VQ?feature=share)
+And here's a complete demonstration of the project's capabilities:
 
-
-https://youtu.be/NKz0V5vYwB8
-
+[![Full Demonstration](https://img.youtube.com/vi/NKz0V5vYwB8/0.jpg)](https://www.youtube.com/watch?v=NKz0V5vYwB8)
 
 This is version 1 of the Flame Throwing Pumpkin project; the original and unimproved. For an updated version, Version 2, look here <<ADD LINK>>.
 
