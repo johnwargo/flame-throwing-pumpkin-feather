@@ -1,6 +1,6 @@
 # Flame-Throwing Pumpkin
 
-**Note:** This is a work in progress, please be patient with me.
+**Note:** This is a work in progress, please be patient.
 
 Hi, I'm Sparky -  a remote controlled, flame throwing "pumpkin." Yes, I know it's a small metal trash can painted to look like a pumpkin. Pretend its a pumpkin for now; you can use an actual pumpkin for your implementation if you want.
 
@@ -24,7 +24,7 @@ This is version 1 of the Flame Throwing Pumpkin project; the original and unimpr
 
 ## Background
 
-I always wanted a flame throwing pumpkin, so finally built one. There are a lot of other plans on the Internet for this type of project, some that are very dangerous (like this one: https://www.instructables.com/Flamethrowing-Jack-O-Lantern/). This one is simple and fairly safe (but still dangerous since it's shooting fire).
+I always wanted a flame throwing pumpkin, so finally built one. There are a lot of other plans on the Internet for this type of project, some that are very dangerous (like this one: https://www.instructables.com/Flamethrowing-Jack-O-Lantern/). This one is simple and fairly safe (but still dangerous since, you know, it's shooting fire).
 
 I used a small metal trash can painted orange as my 'pumpkin', mostly because I was lazy and wanted to be able to reuse it year after year. You can use a real pumpkin for this, but you'll have to use a pretty tall one due to the height of the Glade Automatic Spray Air Freshener that must fit inside.
 
@@ -50,8 +50,11 @@ For this project, I used the following components:
 - [Adafruit Feather M0 Basic Proto - ATSAMD21 Cortex M0](https://www.adafruit.com/product/2772)
 - [Adafruit Music Maker FeatherWing - MP3 OGG WAV MIDI Synth Player](https://www.adafruit.com/product/3357)
 - [NeoPixel FeatherWing - 4x8 RGB LED Add-on For All Feather Boards](https://www.adafruit.com/product/2945)
+- 2 x [Stacking Headers for Feather - 12-pin and 16-pin female headers](https://www.adafruit.com/product/2830)
 - [JVC CS-J620 300W 6.5" CS Series 2-Way Coaxial Car Speakers, Set of 2](https://www.amazon.com/gp/product/B00OO1ENP4)
 - [Kinter K3118 Texas Instruments TI Digital Hi-Fi Audio Mini Class D Home Auto DIY Arcade Stereo Amplifier with 12V 3A Power Supply Black](https://www.amazon.com/gp/product/B0787BRQ2F)
 
 If I were to do this project again today, I'd probably use the [Adafruit ESP32 Feather V2 - 8MB Flash + 2 MB PSRAM - STEMMA QT](https://www.adafruit.com/product/5400) board instead. That's my goto board nowadays, and it allows me to run code on separate threads so I can watch for remote input on one thread while controlling the lights and audio playback on another thread. See [Arduino ESP32 Running Tasks On Multiple Cores](https://johnwargo.com/posts/2023/arduino-running-tasks-on-multiple-cores/) for more information.
+
+## Hardware Assembly
 
