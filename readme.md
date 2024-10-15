@@ -10,7 +10,9 @@ Now, before you panic over the dangerous nature of this project, please note tha
 
 It does shoot fire out of its mouth, so you should be VERY, VERY careful with this device. Keep all humans and animals 6 feet or more away from the device while it operates. I do not accept any responsibility for harm caused by and through your implementation of this project. Be careful.
 
-![Flame Throwing Demonstration](https://youtube.com/shorts/WcZAg1KJ5VQ?feature=share)
+[![Flame Throwing Demonstration](https://img.youtube.com/vi/WcZAg1KJ5VQ/0.jpg)](https://www.youtube.com/watch?v=WcZAg1KJ5VQ)
+
+![](https://youtube.com/shorts/WcZAg1KJ5VQ?feature=share)
 
 
 https://youtu.be/NKz0V5vYwB8
