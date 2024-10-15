@@ -39,5 +39,4 @@ For this project, I used the following components:
 - [JVC CS-J620 300W 6.5" CS Series 2-Way Coaxial Car Speakers, Set of 2](https://www.amazon.com/gp/product/B00OO1ENP4)
 - [Kinter K3118 Texas Instruments TI Digital Hi-Fi Audio Mini Class D Home Auto DIY Arcade Stereo Amplifier with 12V 3A Power Supply Black](https://www.amazon.com/gp/product/B0787BRQ2F)
 
-If I were to do this project again today, I'd probably use the [Adafruit ESP32 Feather V2 - 8MB Flash + 2 MB PSRAM - STEMMA QT](https://www.adafruit.com/product/5400) board instead. That's my goto board nowadays and it allows me to run code on separate threads so I can watch from remote input on one thread while controlling the lights and audio playback on another thread.
-
+If I were to do this project again today, I'd probably use the [Adafruit ESP32 Feather V2 - 8MB Flash + 2 MB PSRAM - STEMMA QT](https://www.adafruit.com/product/5400) board instead. That's my goto board nowadays and it allows me to run code on separate threads so I can watch from remote input on one thread while controlling the lights and audio playback on another thread. See [Arduino ESP32 Running Tasks On Multiple Cores](https://johnwargo.com/posts/2023/arduino-running-tasks-on-multiple-cores/) for more information.
