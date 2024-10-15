@@ -1,6 +1,13 @@
 # Flame-Throwing Pumpkin (Adafruit Feather)
 
-This project contains the (general) assembly instructions and device code for a remote controlled, flame throwing pumpkin. 
+This project contains general assembly instructions and the device code for a remote controlled, flame throwing pumpkin. You should be able to build your own version of this from these instructions.
+
+Now, before you panic over the dangerous nature of this project, please note that the Glade Automatic Spray Air Freshener only sprays fuel for less than a second, so all you'll get with this is a short burst of flame that should scare and startle visitors, but not harm them unless they are very close to the device.
+
+It does shoot fire, so you should be VERY, VERY careful with this device. Keep all humans and animals 6 feet or more away from the device while it operates. I do not accept any responsibility for harm caused by and through your implementation of this project. Be careful.
+
+## Background
+
 
 Glade Automatic Spray Refill and Holder Kit, Air Freshener for Home and Bathroom, Cashmere Woods, 6.2 Oz
 https://www.amazon.com/gp/product/B00MH7V0QC
