@@ -1,4 +1,4 @@
-# Feather Flame-Throwing Pumpkin project
+# Flame-Throwing Pumpkin (Feather)
 
 This is the Microcontroller version of the project.
 
