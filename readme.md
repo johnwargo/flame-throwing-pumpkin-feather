@@ -1,5 +1,7 @@
 # Flame-Throwing Pumpkin
 
+**Note:** This is a work in progress, please be patient with me.
+
 Hi, I'm Sparky -  a remote controlled, flame throwing "pumpkin" (yes, I know it's a small metal trash can painted to look like a pumpkin. Pretend its a pumpkin for now; you can use an actual pumpkin for your implementation if you want.
 
 ![Sparky Portrait](/images/sparky.jpg)
@@ -14,13 +16,11 @@ Here's a demonstration of the project's flame throwing capabilities:
 
 [![Flame Throwing Demonstration](https://img.youtube.com/vi/WcZAg1KJ5VQ/0.jpg)](https://www.youtube.com/watch?v=WcZAg1KJ5VQ)
 
-And here's a complete demonstration of the project's capabilities:
+And here's a complete demonstration of the project's capabilities (by our exchange student Jannis):
 
 [![Full Demonstration](https://img.youtube.com/vi/NKz0V5vYwB8/0.jpg)](https://www.youtube.com/watch?v=NKz0V5vYwB8)
 
 This is version 1 of the Flame Throwing Pumpkin project; the original and unimproved. For an updated version, Version 2, look here <<ADD LINK>>.
-
-**Note:** This is a work in progress, please be patient with me.
 
 ## Background
 
