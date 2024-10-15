@@ -1,7 +1,5 @@
 # Flame-Throwing Pumpkin
 
-**Note:** This is a work in progress, please be patient.
-
 Hi, I'm Sparky -  a remote controlled, flame throwing "pumpkin." Yes, I know it's a small metal trash can painted to look like a pumpkin. Pretend its a pumpkin for now; you can use an actual pumpkin for your implementation if you want.
 
 ![Sparky Portrait](/images/sparky.jpg)
@@ -82,9 +80,9 @@ The project sketch uses an array of values to define which Input pins to use to 
 int myPins[] = {A1, A2, A3};
 ```
 
-Connect the first set of relay wires to `A1` and `GND`
-Connect the second set of relay wires to `A2` and `GND`
-Connect the third set of relay wires to `A3` and `GND`
+Connect the first set of relay wires to the Feather's `A1` and `GND` connections.
+Connect the second set of relay wires to the Feather's `A2` and `GND` connections.
+Connect the third set of relay wires to the Feather's `A3` and `GND` connections.
 
 If you decide to use different input pins on the Arduino device, just update the `myPins` array in the sketch accordingly.
 
@@ -92,10 +90,10 @@ The fourth set of relay wires connect directly to the Glade Air Freshener; the s
 
 ## Hacking the Air Freshener
 
-I created this project so long ago that I don't remember exactly how I hacked the air freshener to work with this project. 
+The air freshener operates by periodically spraying freshener in the room based on a setting on the back of the device. You can configure it to spray every 9, 18 or 36 minutes. The air freshener also has a button on the back you can use to force a spray whenever you want; this is where I hacked the device.
 
-The air freshener operates by periodically spraying freshener in the room based on a setting on the back of the device. You can configure it to spray every 9, 18 or 36 minutes. The air freshener also has a button on the back you can use to force a spray whenever you want. This is where I hacked the device.
-
-I opened up the device and found the two wires that connect to the button. Next, I cut those wires from the button's circuit board, disabling the button, and added wire extensions to the cut wires so I can connect them to the 4th relay. 
+I opened up the device and found the two wires that connect to the button. Next, I cut those wires from the button's circuit board (you can see them to the left of the button in the following figure), disabling the button, and added wire extensions to the cut wires so I can connect them to the 4th relay on the remote control.
 
 ![Air Freshener](/images/figure-03.jpg)
+
+The side effect of this approach is that I've done nothing to interrupt the timed spray. So, once you power on the device, not only will it shoot fire when you press the 4th button on the remote control, it will also periodically shoot fire on the predetermined schedule. If you don't want this behavior, you must disable that capability in the air freshener as well.
