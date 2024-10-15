@@ -5,20 +5,9 @@
    Created October 25, 2019
    https://johnwargo.com
 
-   This is the Adafruit Feather code for a remote controlled
-   flame-throwing pumpkin project.
+   This is the Adafruit Feather code for a remote controlled flame-throwing pumpkin project.
 
-   Remote Control Buttons:
-
-   1. Lights flash RED
-   2. Scream
-   3. Lights and Scream
-
-  Note: The code expects that the media player SD
-  card has only `.mp3` files on it. If you want to
-  put other files on the card, then you must adjust
-  the print directory function to only count /mp3
-  files.
+  Note: The code expects that the media player SD card has only `.mp3` files on it. If you want to put other files on the card, then you must adjust the print directory function to only count /mp3 files.
  *****************************************************/
 
 // NeoPixel shield pin

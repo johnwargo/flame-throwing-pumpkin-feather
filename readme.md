@@ -56,11 +56,17 @@ For this project, I used the following components:
 
 If I were to do this project again today, I'd probably use the [Adafruit ESP32 Feather V2 - 8MB Flash + 2 MB PSRAM - STEMMA QT](https://www.adafruit.com/product/5400) board instead. That's my goto board nowadays, and it allows me to run code on separate threads so I can watch for remote input on one thread while controlling the lights and audio playback on another thread. See [Arduino ESP32 Running Tasks On Multiple Cores](https://johnwargo.com/posts/2023/arduino-running-tasks-on-multiple-cores/) for more information.
 
+## Music Copy
+
+Copy all of the project's audio files to the root of a Micro SD Card and insert it into the Adafruit Music Maker FeatherWing. If you want to use different audio files in your version of this project, simply copy the files over while maintaining the file naming convention used in the Audio Files folder.
+
 ## Hardware Assembly
 
-1. Solder male headers to the underside of NeoPixel FeatherWing, it sits on top of a stack of Feathers.
-2. Solder stacking female headers to top of the Adafruit Music Maker FeatherWing.
-3. Depending on how you want to connect everything together you can either solder female headers onto the top of the Adafruit Feather M0 Basic Proto and solder it to a [Adafruit Perma-Proto Half-sized Breadboard PCB](https://www.adafruit.com/product/1609) board (like I did) or simply solder female headers to the top of the board.
+Solder male headers to the underside of NeoPixel FeatherWing, it sits on top of the stack of Feather boards (so you can see the LEDs).
+
+Solder stacking female headers to top of the Adafruit Music Maker FeatherWing.
+
+Depending on how you want to connect everything together you can either solder female headers onto the top of the Adafruit Feather M0 Basic Proto and solder it to a [Adafruit Perma-Proto Half-sized Breadboard PCB](https://www.adafruit.com/product/1609) board (like I did) or simply solder female headers to the top of the board.
 
 You should end up with a stack of components that looks something like this:
 
@@ -77,3 +83,10 @@ The project sketch uses an array of values to define which Input pins to use to 
 int myPins[] = {A1, A2, A3};
 ```
 
+Connect the first set of relay wires to `A1` and `GND`
+Connect the second set of relay wires to `A2` and `GND`
+Connect the third set of relay wires to `A3` and `GND`
+
+If you decide to use different input pins on the Arduino device, just update the `myPins` array in the sketch accordingly.
+
+The fourth set of relay wires connect directly to the Glade Air Freshener; the sketch doesn't do anything to control flame throwing.
