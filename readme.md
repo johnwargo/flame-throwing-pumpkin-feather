@@ -1,10 +1,22 @@
-# Flame-Throwing Pumpkin (Feather)
+# Flame-Throwing Pumpkin (Adafruit Feather)
+
+This project contains the (general) assembly instructions and device code for a remote controlled, flame throwing pumpkin. 
+
+Glade Automatic Spray Refill and Holder Kit, Air Freshener for Home and Bathroom, Cashmere Woods, 6.2 Oz
+https://www.amazon.com/gp/product/B00MH7V0QC
+
+
+4 Channel DC12V 433MHz Inching Relay Module Wireless RF Switch for Truck Lift Tailgate ,2 Transmitter and 1 Receiver
+https://www.amazon.com/gp/product/B07W56RNXJ
+
+
+
 
 This is the Microcontroller version of the project.
 
 Connects to first, second, third ports on the remote control relay (port 4 is for the flame thrower)
 
-Flashes a Neopixel Featherwing, plays audio files.
+Flashes a Neopixel FeatherWing, plays audio files.
 
 
 
