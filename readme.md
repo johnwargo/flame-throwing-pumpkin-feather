@@ -97,3 +97,13 @@ I opened up the device and found the two wires that connect to the button. Next,
 ![Air Freshener](/images/figure-03.jpg)
 
 The side effect of this approach is that I've done nothing to interrupt the timed spray. So, once you power on the device, not only will it shoot fire when you press the 4th button on the remote control, it will also periodically shoot fire on the predetermined schedule. If you don't want this behavior, you must disable that capability in the air freshener as well.
+
+## Making Fire
+
+To enable fire, you must put a small candle or oil lamp in front of the spray nozzle in the air freshener. Don't put it directly in front of the spray, experiment with it sightly below the nozzle. I used an oil lamp sitting on a piece of wood - mostly so I could be consistent with the flame. A candle will shorten throughout the night on Halloween and I didn't want to have to get up every so often and adjust candle placement.
+
+---
+
+You can find information on many different topics on my [personal blog](http://www.johnwargo.com). Learn about all of my publications at [John Wargo Books](http://www.johnwargobooks.com).
+
+If you find this code useful and feel like thanking me for providing it, please consider <a href="https://www.buymeacoffee.com/johnwargo" target="_blank">Buying Me a Coffee</a>, or making a purchase from [my Amazon Wish List](https://amzn.com/w/1WI6AAUKPT5P9).
