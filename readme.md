@@ -1,10 +1,22 @@
-# Flame-Throwing Pumpkin (Adafruit Feather)
+# Flame-Throwing Pumpkin
 
-This project contains general assembly instructions and the device code for a remote controlled, flame throwing pumpkin. You should be able to build your own version of this from these instructions.
+Hi, I'm Sparky -  a remote controlled, flame throwing "pumpkin" (yes, I know it's a small metal trash can painted to look like a pumpkin. Pretend its a pumpkin for now; you can use an actual pumpkin for your implementation if you want.
+
+![Sparky Portrait](/images/sparky.jpg)
+
+This project contains general assembly instructions and the device code for the project; Yyo should be able to build your own version of this from these instructions. 
 
 Now, before you panic over the dangerous nature of this project, please note that the Glade Automatic Spray Air Freshener only sprays fuel for less than a second, so all you'll get with this is a short burst of flame that should scare and startle visitors, but not harm them unless they are very close to the device.
 
-It does shoot fire, so you should be VERY, VERY careful with this device. Keep all humans and animals 6 feet or more away from the device while it operates. I do not accept any responsibility for harm caused by and through your implementation of this project. Be careful.
+It does shoot fire out of its mouth, so you should be VERY, VERY careful with this device. Keep all humans and animals 6 feet or more away from the device while it operates. I do not accept any responsibility for harm caused by and through your implementation of this project. Be careful.
+
+![Flame Throwing Demonstration](https://youtube.com/shorts/WcZAg1KJ5VQ?feature=share)
+
+
+https://youtu.be/NKz0V5vYwB8
+
+
+This is version 1 of the Flame Throwing Pumpkin project; the original and unimproved. For an updated version, Version 2, look here <<ADD LINK>>.
 
 **Note:** This is a work in progress, please be patient with me.
 
