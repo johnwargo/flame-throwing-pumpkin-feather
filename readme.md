@@ -68,6 +68,9 @@ You should end up with a stack of components that looks something like this:
 
 I used the Perma Proto board to connect everything together since it allowed me to pull out the connections to the Arduino input pins into screw connectors. This allows me to easily connect and disconnect the remote control relay board.
 
+![All connections](/images/figure-02.jpg)
+
+
 The project sketch uses an array of values to define which Input pins to use to read values from the remote control relays:
 
 ```c
