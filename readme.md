@@ -76,7 +76,6 @@ I used the Perma Proto board to connect everything together since it allowed me 
 
 ![All connections](/images/figure-02.jpg)
 
-
 The project sketch uses an array of values to define which Input pins to use to read values from the remote control relays:
 
 ```c
@@ -93,4 +92,6 @@ The fourth set of relay wires connect directly to the Glade Air Freshener; the s
 
 ## Hacking the Air Freshener
 
+I created this project so long ago that I don't remember exactly how I hacked the air freshener to work with this project. 
 
+![All connections](/images/figure-02.jpg)
