@@ -58,3 +58,19 @@ If I were to do this project again today, I'd probably use the [Adafruit ESP32 F
 
 ## Hardware Assembly
 
+1. Solder male headers to the underside of NeoPixel FeatherWing, it sits on top of a stack of Feathers.
+2. Solder stacking female headers to top of the Adafruit Music Maker FeatherWing.
+3. Depending on how you want to connect everything together you can either solder female headers onto the top of the Adafruit Feather M0 Basic Proto and solder it to a [Adafruit Perma-Proto Half-sized Breadboard PCB](https://www.adafruit.com/product/1609) board (like I did) or simply solder female headers to the top of the board.
+
+You should end up with a stack of components that looks something like this:
+
+![Stacked Boards](/images/figure-01.jpg)
+
+
+
+The project sketch uses an array of values to define which Input pins to use to read values from the remote control relays:
+
+```c
+int myPins[] = {A1, A2, A3};
+```
+
