@@ -108,7 +108,6 @@ int numAudioFiles = 0;
 Adafruit_NeoPixel pixels(NUMPIXELS, NEOPIXELPIN, NEO_GRB + NEO_KHZ800);
 
 // colors
-const uint32_t GOLD = pixels.Color(255, 215, 0);
 const uint32_t ORANGE = pixels.Color(255, 105, 0);
 const uint32_t PURPLE = pixels.Color(148, 0, 211);
 const uint32_t RED = pixels.Color(255, 0, 0);
