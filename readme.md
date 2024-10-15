@@ -6,6 +6,8 @@ Now, before you panic over the dangerous nature of this project, please note tha
 
 It does shoot fire, so you should be VERY, VERY careful with this device. Keep all humans and animals 6 feet or more away from the device while it operates. I do not accept any responsibility for harm caused by and through your implementation of this project. Be careful.
 
+**Note:** This is a work in progress, please be patient with me.
+
 ## Background
 
 I always wanted a flame throwing pumpkin, and finally built one. There are a lot of other plans on the Internet for this type of project, some that are very dangerous (like this one: https://www.instructables.com/Flamethrowing-Jack-O-Lantern/). 
@@ -39,30 +41,3 @@ For this project, I used the following components:
 
 If I were to do this project again today, I'd probably use the [Adafruit ESP32 Feather V2 - 8MB Flash + 2 MB PSRAM - STEMMA QT](https://www.adafruit.com/product/5400) board instead. That's my goto board nowadays and it allows me to run code on separate threads so I can watch from remote input on one thread while controlling the lights and audio playback on another thread.
 
-## Assembly
-
-1. Insert vertical post in base
-2. Mount relay board on vertical post
-3. Plug relay power brick into power strip
-4. Wire Relay power onto relay board
-5. Strap Bose speaker to front of vertical post
-6. Cover frame with material
-7. Mount bucket mount to vertical post
-8. Screw bucket to bucket mount
-9. Feed colored wires through bucket and bucket mount
-10. Connect colored wires to the relay board (using image and bullet list in next section as an example)
-11. Connect two USB cables to power strip
-12. Connect one USB cable to the Bose Speaker
-13. Feed the other cable through the bottom of the bucket and connect to the Feather assembly
-
-## Relay Wiring Configuration
-
-1. Power
-2. Yellow
-3. White
-4. Green
-5. Blue
-
-As illustrated in the following picture.
-
-![Relay Wiring](images/figure-01.png)
