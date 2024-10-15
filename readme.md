@@ -23,6 +23,7 @@ I wanted something that I could use to amaze small children on Halloween but als
 - Button 3: Flashes the LEDs Red and plays a scream through the speakers.
 - Button 4: Shoots flame out of the pumpkin's mouth.
 
+The original version of this project used a portable BlueTooth speaker for audio output, but I was never happy with the quality and volume from that particular device, so this year I upgraded the project with an amplifier and two 6" speakers.
 
 ## Parts List
 
