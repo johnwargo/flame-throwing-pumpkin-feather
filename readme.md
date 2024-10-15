@@ -94,4 +94,4 @@ The fourth set of relay wires connect directly to the Glade Air Freshener; the s
 
 I created this project so long ago that I don't remember exactly how I hacked the air freshener to work with this project. 
 
-![All connections](/images/figure-02.jpg)
+![Air Freshener](/images/figure-03.jpg)
